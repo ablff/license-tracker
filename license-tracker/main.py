@@ -8,5 +8,5 @@ def health_check():
 
 @app.get("/about")
 def about():
-    return {"project": app.title, "version": app.version, "status": "ok"}
+    return {"project": app.title, "version": app.version, "stage": "in development"}
 
